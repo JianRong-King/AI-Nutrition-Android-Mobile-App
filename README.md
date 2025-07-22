@@ -4,9 +4,7 @@ NutriTrack Pro is a personalized nutrition tracking Android application develope
 
 This application helps users assess their dietary habits, receive AI-generated food tips, and view personalized nutrition insights through a clean and interactive interface.
 
----
-
-## Features Includes
+## 📖 Features Overview
 
 ### 🔐 Multi-user Authentication
 - Account claiming on first login using User ID + Phone Number
