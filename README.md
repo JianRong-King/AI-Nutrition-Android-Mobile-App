@@ -32,32 +32,59 @@ This application helps users assess their dietary habits, receive AI-generated f
 
 ## 📖 App Specification Overview
 
+## 📱 App Screens
 
-### ✅ Core Screens & Navigation
+Here’s a breakdown of all major screens included in the application (based on your updated mockup):
 
-1. **Welcome Screen**
-   - Displays app name, disclaimer, Monash Nutrition Clinic link
-   - Login button
+### 🟢 **Welcome Screen**
+- App name, logo, disclaimer
+- Link to Monash Nutrition Clinic
+- Student ID/name displayed
+- "Login" button to continue
 
-2. **Login Screen**
-   - Dropdown: User ID (from CSV)
-   - Text field: Phone number (CSV validated)
-   - Validation logic returns errors on mismatch
-   - Register / Login Options
+### 🔐 **Login Screen**
+- Dropdown for selecting User ID (from CSV)
+- Phone number input and validation
+- Account claiming flow with password creation on first login
+- Login state persisted unless user logs out
 
-3. **Food Intake Questionnaire**
-   - Checkboxes for food groups (Fruits, Vegetables, etc.)
-   - Persona selection
-   - Time pickers for meal, wake, and sleep time
-   - Data saved to `SharedPreferences`
+### 📋 **Questionnaire Screen**
+- Checkboxes for food groups (fruits, veg, etc.)
+- Persona selection
+- Time pickers for meal/sleep/wake time
+- "Save" button stores data in `SharedPreferences`
 
-4. **Home Screen**
-   - Shows user greeting and total food score
-   - Navigation and Edit buttons
+### 🏠 **Home Screen**
+- Displays personalized greeting and total food quality score
+- Includes edit button to return to questionnaire
+- Navigation to Insights or NutriCoach screen
 
-5. **Insights Screen**
-   - Progress bars for individual food categories
-   - Buttons: “Share with someone”, “Improve my diet” (future use)
+### 📊 **Insights Screen**
+- Visual progress bars for each food group (e.g., Fruits, Dairy)
+- Total HEIFA score
+- Buttons:
+  - “Share with someone”
+  - “Improve my diet” → links to NutriCoach
+
+### 🧠 **NutriCoach Screen**
+- Conditional display based on fruit score
+- **FruityVice API**: fruit search and nutrition facts
+- **Gemini GenAI**: AI-generated food tips
+- History modal to view previously generated tips
+
+### ⚙️ **Settings Screen**
+- Displays logged-in user’s name and phone number
+- Logout button (resets session)
+- “Admin View” access with clinician key
+
+### 👩‍⚕️ **Clinician/Admin View**
+- Accessible via code: `dollar-entry-apples`
+- Analytics:
+  - Average HEIFA by gender
+  - GenAI-generated insights from all patient data
+
+### 🏆 **Leaderboard Modal (Optional Extension)**
+- Real-time comparison of users based on HEIFA scores (if implemented)
 
 
 
