@@ -82,3 +82,40 @@ This application helps users assess their dietary habits, receive AI-generated f
 
 All data follows a clean architecture pattern:
 
+
+
+
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Android Studio 
+- Emulator or device with API level 35
+
+### Setup Steps
+1. Clone the repository
+2. Open the project in Android Studio
+3. Add your Gemini GenAI API key to `secrets.properties` or via `BuildConfig`
+4. Run the app (first launch will import the CSV into Room)
+
+⚠️ The CSV is imported **only on the first launch**. Reinstall the app to reset.
+
+---
+
+## 📎 APIs Used
+
+- [FruityVice API](https://www.fruityvice.com/) – fruit nutrition data  
+- [Gemini GenAI](https://aistudio.google.com/) – food tips & motivation  
+- [Picsum Photos](https://picsum.photos/) – fallback image display  
+
+---
+
+
+## 👤 Author
+
+**Jian Rong King**  
+[LinkedIn](https://www.linkedin.com/in/jianrong-king) | [GitHub](https://github.com/JianRong-King) | [Portfolio](https://kingjianrong.vercel.app)
+
+
