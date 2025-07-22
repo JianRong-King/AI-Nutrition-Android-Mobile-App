@@ -83,8 +83,9 @@ Here’s a breakdown of all major screens included in the application (based on 
   - Average HEIFA by gender
   - GenAI-generated insights from all patient data
 
-### 🏆 **Leaderboard Modal (Optional Extension)**
-- Real-time comparison of users based on HEIFA scores (if implemented)
+### 🏆 **Leaderboard Modal **
+- Real-time comparison of users based on HEIFA scores
+- Further breakdown of each score for the user to understand where they stand on each scores. 
 
 
 
