@@ -1,6 +1,6 @@
 # NutriTrack Pro – AI-Powered Nutrition Tracking App
 
-NutriTrack Pro is a personalized nutrition tracking Android application developed for FIT2081 (Mobile App Development). It integrates AI-driven dietary tips, user authentication, and detailed health insights through a clean MVVM architecture.
+NutriTrack Pro is a personalized nutrition tracking Android application developed as an academic project. It integrates AI-driven dietary tips, user authentication, and detailed health insights through a clean MVVM architecture.
 
 ## 📱 Features
 
